@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>{{page.title}}</title>
+    <meta charset="utf-8">
+    {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+    <meta name="author" content="{{ site.author.name }}">
+
+    <!-- Reset styles first. -->
+    <link rel="stylesheet" href="{{ ASSET_PATH }}/css/reset.css" type="text/css" media="all">
+
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.min.css" type="text/css" media="all">
+
+    <!-- Site css files. -->
+    <link rel="stylesheet" href="{{ ASSET_PATH }}/css/layout.css" type="text/css" media="all">
+    <link rel="stylesheet" href="{{ ASSET_PATH }}/css/style.css" type="text/css" media="all">
+
+    <!-- Include the scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
+
+    <!-- Add roundabout -->
+    <script type="text/javascript" src="{{ BASE_PATH }}/assets/roundabout/jquery.roundabout.min.js"></script>
+
+    <!-- Add the pretty photo plugin -->
+    {% if page.images %}
+      <script type="text/javascript" src="{{ ASSET_PATH }}/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+      <script type="text/javascript" src="{{ ASSET_PATH }}/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+      <link rel="stylesheet" type="text/css" href="{{ ASSET_PATH }}/fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+    {% endif %}
+
+    <!--[if lt IE 7]>
+      <div style='clear:both;text-align:center;position:relative'>
+        <a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://www.theie6countdown.com/images/upgrade.jpg" border="0" alt="" /></a>
+      </div>
+    <![endif]-->
+  </head>
+  <body id="page1">
+    <div class="body1">
+      <div class="body2">
+        <div class="body3">
+          <div class="main">
+            <!-- header -->
+            <header>
+              <div class="wrapper">
+                <h1><div class="pad" id="logo_wrapper"><a href="/index.html" id="logo" alt="Annie's Designs"></a><small>Exquisite Interior Design in Dallas</small></div></h1>
+                <nav>
+                  {% include themes/anniesdesigns/menu.html %}
+                </nav>
+              </div>
+              <div class="relative">
+                <div id="gallery">
+                  <ul id="roundabout">
+                    <li><img src="{{ ASSET_PATH }}/images/portfolio/kitchen.jpg" alt=""></li>
+                    <li><img src="{{ ASSET_PATH }}/images/portfolio/patio.jpg" alt=""></li>
+                    <li><img src="{{ ASSET_PATH }}/images/portfolio/blue_br.jpg" alt=""></li>
+                  </ul>
+                </div>
+              </div>
+            </header>
+            <!-- / header-->
+            <!-- content -->
+            <section id="content">
+              {{ content }}
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+    {% include themes/anniesdesigns/fatfooter.html %}
+    <!-- / content -->
+    <div class="main">
+      <!-- footer -->
+      <footer>
+        <div class="wrapper">
+          <span class="left">Built by <a href="http://github.com/travist" target="_blank">Travis Tidwell</a></span>
+          {% if (site.links) %}
+            <ul id="icons">
+              {% for link in site.links %}
+                <li><a href="#" class="normaltip" title="{{link.title}}"><img src="{{link.icon}}" alt=""></a></li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+        </div>
+        <!-- {FOOTER_LINK} -->
+      </footer>
+      <!-- / footer -->
+    </div>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $('ul#roundabout').roundabout({
+          minScale: 0.50,
+          minOpacity: 0.9
+        });
+      });
+    </script>
+    {% include JB/analytics %}
+  </body>
+</html>
