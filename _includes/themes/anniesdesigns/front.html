@@ -68,25 +68,7 @@
         </div>
       </div>
     </div>
-    {% include themes/anniesdesigns/fatfooter.html %}
-    <!-- / content -->
-    <div class="main">
-      <!-- footer -->
-      <footer>
-        <div class="wrapper">
-          <span class="left">Built by <a href="http://github.com/travist" target="_blank">Travis Tidwell</a></span>
-          {% if (site.links) %}
-            <ul id="icons">
-              {% for link in site.links %}
-                <li><a href="#" class="normaltip" title="{{link.title}}"><img src="{{link.icon}}" alt=""></a></li>
-              {% endfor %}
-            </ul>
-          {% endif %}
-        </div>
-        <!-- {FOOTER_LINK} -->
-      </footer>
-      <!-- / footer -->
-    </div>
+    {% include themes/anniesdesigns/footer.html %}
     <script type="text/javascript">
       $(document).ready(function() {
         $('ul#roundabout').roundabout({
