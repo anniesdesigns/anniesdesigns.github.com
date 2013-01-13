@@ -2,52 +2,43 @@
 layout: gallery
 title : Portfolio
 group: navigation
-menutitle: Folio
+context: portfolio
 weight: 2
 images:
-  - thumbnail: http://placehold.it/220x160
-    fullsize: blue_br.jpg
+  - thumbnail: /assets/themes/anniesdesigns/images/portfolio/livingroom_thumb.jpg
+    fullsize: livingroom.jpg
     title: Beautiful Living Room
-  - thumbnail: http://placehold.it/220x160
-    fullsize: blue_br.jpg
+  - thumbnail: /assets/themes/anniesdesigns/images/portfolio/lorettasliving_thumb.jpg
+    fullsize: lorettasliving.jpg
+    title: Another beautiful Living Room
+  - thumbnail: /assets/themes/anniesdesigns/images/portfolio/lorettasbath_thumb.jpg
+    fullsize: lorettasbath.jpg
     title: Bathroom
-  - thumbnail: http://placehold.it/220x160
-    fullsize: blue_br.jpg
-    title: Kitchen
-  - thumbnail: http://placehold.it/220x160
-    fullsize: blue_br.jpg
-    title: Dining Room
-  - thumbnail: http://placehold.it/220x160
-    fullsize: blue_br.jpg
+  - thumbnail: /assets/themes/anniesdesigns/images/portfolio/powder2_thumb.jpg
+    fullsize: powder2.jpg
+    title: Powder Bathroom
+  - thumbnail: /assets/themes/anniesdesigns/images/portfolio/livingroom2_thumb.jpg
+    fullsize: livingroom2.jpg
     title: Living Room
-  - thumbnail: http://placehold.it/220x160
-    fullsize: blue_br.jpg
+  - thumbnail: /assets/themes/anniesdesigns/images/portfolio/K1_thumb.jpg
+    fullsize: K1.jpg
+    title: Kitchen
+  - thumbnail: /assets/themes/anniesdesigns/images/portfolio/kitchen_thumb.jpg
+    fullsize: kitchen.jpg
+    title: Kitchen
+  - thumbnail: /assets/themes/anniesdesigns/images/portfolio/lorettasmaster_thumb.jpg
+    fullsize: lorettasmaster.jpg
     title: Master Bedroom
-  - thumbnail: http://placehold.it/220x160
-    fullsize: blue_br.jpg
-    title: Master Bath
-  - thumbnail: http://placehold.it/220x160
-    fullsize: blue_br.jpg
-    title: Man Cave
-  - thumbnail: http://placehold.it/220x160
-    fullsize: blue_br.jpg
-    title: Kids Room
-  - thumbnail: http://placehold.it/220x160
-    fullsize: blue_br.jpg
-    title: Play Room
-  - thumbnail: http://placehold.it/220x160
-    fullsize: blue_br.jpg
-    title: Theater Room
-  - thumbnail: http://placehold.it/220x160
-    fullsize: blue_br.jpg
-    title: Office
-  - thumbnail: http://placehold.it/220x160
-    fullsize: blue_br.jpg
-    title: Entry
-  - thumbnail: http://placehold.it/220x160
-    fullsize: blue_br.jpg
-    title: Sun Room
-  - thumbnail: http://placehold.it/220x160
-    fullsize: blue_br.jpg
-    title: Laundry
+  - thumbnail: /assets/themes/anniesdesigns/images/portfolio/pinkmantle_thumb.jpg
+    fullsize: pinkmantle.jpg
+    title: Mantle
+  - thumbnail: /assets/themes/anniesdesigns/images/portfolio/powder_thumb.jpg
+    fullsize: powder.jpg
+    title: Powder Bathroom
+  - thumbnail: /assets/themes/anniesdesigns/images/portfolio/study_thumb.jpg
+    fullsize: study.jpg
+    title: Study
+  - thumbnail: /assets/themes/anniesdesigns/images/portfolio/MB1_thumb.jpg
+    fullsize: MB1.jpg
+    title: Master Bathroom
 ---

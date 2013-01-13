@@ -10,7 +10,7 @@ pygments: true
 # so be sure to set them if your theme uses them.
 #
 title : Annie's Designs
-tagline:
+tagline: Exquisite Interior Design in Dallas
 author :
   name : Travis Tidwell
   email : travist349@gmail.com
@@ -19,7 +19,7 @@ author :
   feedburner : feedname
 
 profile:
-  name: Annie Kelner
+  name: Ann Kellner
   address: '1604 Amesbury Dr. - Richardson, TX 75082'
 
 # To add site links to the bottom of each page...

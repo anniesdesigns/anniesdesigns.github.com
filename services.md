@@ -2,13 +2,30 @@
 layout: page
 title : Services
 group: navigation
+context: services
+image: /assets/themes/anniesdesigns/images/portfolio/kitchen.jpg
 weight: 3
 ---
-![Services](http://placehold.it/300x300)
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu ante, pulvinar bibendum ultrices id, malesuada ut ipsum. Morbi congue ipsum in arcu mollis luctus. Suspendisse lacus risus, viverra in condimentum consequat, euismod a nisl. Vivamus est massa, posuere nec rhoncus in, accumsan quis sapien. Donec accumsan auctor ornare. Cras et tortor eu augue aliquam vehicula viverra nec dolor. Nam ut rutrum magna. Curabitur interdum interdum pellentesque. Curabitur bibendum cursus facilisis. Aenean iaculis, odio ut cursus consectetur, arcu arcu placerat arcu, ac pretium nulla purus ac magna. Integer faucibus pretium laoreet. Proin sagittis blandit sapien nec faucibus. Pellentesque aliquam sagittis metus in placerat. Suspendisse mattis cursus gravida. Duis ultrices suscipit bibendum. Sed vel mi leo.
+{{ site.title }} offers a range of services not limited to just Interior Design.
+She employs a team of skilled professionals, each with their own specialty, to
+ensure that your desires can be accomplished with the best quality and craftmanship.
+Her team is able to accomplish a whole range of home design needs.  These
+services include, but are certainly not limited to.
+- Custom design.
+- Digital Renderings.
+- Hand-drawn Sketches.
+- Paint Color Consultation.
+- Refurbish antique furniture.
+- Custom Re-upholstery.
+- Merchandise Shopping.
+- Holiday Decorating.
+- Custom built-ins
+- General woodworking / craftmanship.
+- Handyman needs.
+- Professional Interior/Exterior Painting.
+- Plumbing and Electrical Contracting.
 
-Proin turpis est, tincidunt id tempus id, elementum eget erat. Vestibulum porta nisl ac lorem tincidunt eget varius lorem hendrerit. Integer tempor accumsan mauris, a adipiscing diam commodo a. Maecenas laoreet risus nec metus lacinia imperdiet. Proin blandit, nibh eget tempus porttitor, felis purus condimentum urna, nec posuere ipsum purus ut nibh. Suspendisse potenti. Nam dictum blandit scelerisque. Aenean rhoncus, orci pellentesque facilisis imperdiet, ipsum tortor accumsan justo, id mollis nulla elit lacinia ligula. Donec luctus ipsum sed elit eleifend bibendum. Nunc sit amet augue orci.
-
-Cras vel massa suscipit ante sagittis auctor sit amet eu neque. Integer sollicitudin eros ac metus cursus tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut vestibulum ultrices est vel commodo. Nulla id mi erat. Aenean quis sem cursus erat bibendum feugiat sollicitudin vel velit. Nulla commodo ultricies risus porta viverra. Nam ornare convallis nibh, et ultricies justo dignissim non. Mauris in malesuada tortor. Ut non condimentum tellus. Fusce posuere rutrum ante, non bibendum leo semper vitae. Etiam eget nisl nulla, vitae volutpat est. Curabitur eleifend mattis risus id elementum.
-
-Duis sit amet elit purus, in aliquet metus. Aliquam fringilla aliquam lorem eu dictum. Fusce aliquam, purus in facilisis ullamcorper, orci sem mollis mauris, ut mattis tortor sapien quis mi. Etiam non mi arcu, vel pharetra risus. Vestibulum elementum, purus eu pharetra consequat, erat felis eleifend lorem, pretium euismod diam purus et nunc. Sed aliquet ultricies ullamcorper. Praesent pulvinar volutpat ullamcorper. Vivamus at lacus erat, vulputate ultricies justo. Aliquam pharetra commodo urna, at rhoncus massa pretium ut. Maecenas a est eu odio tempus bibendum eu ut tortor. Vestibulum justo urna, vestibulum quis ullamcorper et, ultrices at nulla. Curabitur luctus dapibus massa sit amet faucibus. Nullam lobortis consectetur mauris, at dignissim nibh tincidunt at. Cras lobortis faucibus nisl non gravida.
+<br/><br/>
+If there is a service that you do not see on this list, but you would like to
+inquire about, please do not hesitate to <a href="/contact.html">Contact Us</a>
+about your inquiry.

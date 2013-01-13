@@ -36,7 +36,7 @@
       </div>
     <![endif]-->
   </head>
-  <body id="page1">
+  <body id="page1" class="{{ page.context }}">
     <div class="body1">
       <div class="body2">
         <div class="body3">
@@ -44,7 +44,7 @@
             <!-- header -->
             <header>
               <div class="wrapper">
-                <h1><div class="pad" id="logo_wrapper"><a href="/index.html" id="logo" alt="Annie's Designs"></a><small>Exquisite Interior Design in Dallas</small></div></h1>
+                <h1><div class="pad" id="logo_wrapper"><a href="/index.html" id="logo" alt="{{ site.title }}"></a><small>{{ site.tagline }}</small></div></h1>
                 <nav>
                   {% include themes/anniesdesigns/menu.html %}
                 </nav>
@@ -62,7 +62,9 @@
             <!-- / header-->
             <!-- content -->
             <section id="content">
-              {{ content }}
+              <div class="wrapper">
+                {{content}}
+              </div>
             </section>
           </div>
         </div>

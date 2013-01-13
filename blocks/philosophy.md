@@ -1,7 +1,13 @@
 ---
 title: My Philosophy
-image: http://placehold.it/238x124
 section: footer_left
-more_link: about.html
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dapibus orci at mauris sollicitudin eu cursus augue condimentum. Duis quis eros sem. Sed posuere convallis felis sit amet congue. Pellentesque ornare ornare eros at aliquet. Sed imperdiet pellentesque lacinia. Suspendisse bibendum feugiat justo sed laoreet. Nam ornare purus sit amet tortor accumsan tincidunt accumsan felis varius. Phasellus in tortor sit amet arcu consequat suscipit. Nulla faucibus, leo nec sollicitudin posuere, libero risus mollis nunc, ac congue mi ipsum eget justo. Quisque ligula arcu, fermentum tristique aliquam a, accumsan at orci.
+When someone walks into your home, what is their first impression?  {{ site.profile.name }}
+understands that your home is a direct statement of what interests you, where you
+have been, and more importantly... who you are.  This understanding has equipped
+her with the desire to not only strive to make your home look pretty, but rather
+turn your home into a direct reflection of your own personal inner beauty.  She
+understands that her services are only provided from your trust. This is your
+home and it is understood that your home is more than just a place you live.
+It is your place of peace; your place of relaxation; it is your own personal
+sanctuary.  Annie's goal is to make it so.

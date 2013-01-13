@@ -8,7 +8,9 @@
               {% if node.section == 'footer_left' %}
                 <h2>{{node.title}}</h2>
                 <div class="wrapper">
-                  <figure class="left marg_right1"><img src="{{node.image}}" alt="{{node.title}}"></figure>
+                  {% if node.image %}
+                    <figure class="left marg_right1"><img src="{{node.image}}" alt="{{node.title}}"></figure>
+                  {% endif %}
                   {{node.content}}
                 </div>
                 {% if node.more_link %}
@@ -17,6 +19,7 @@
               {% endif %}
             {% endfor %}
           </article>
+          {% if site.posts[0] %}
           <article class="col3 pad_left1">
             <h2>Recent Articles</h2>
             <div class="pad">
@@ -32,6 +35,7 @@
               <a href="/articles.html" class="button">Read More</a>
             </div>
           </article>
+          {% endif %}
         </div>
       </div>
     </section>

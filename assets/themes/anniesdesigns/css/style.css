@@ -1,5 +1,6 @@
 /* Getting the new tags to behave */
 ul, ol {list-style: none;margin:0;}
+body.services section#content ul {margin-left: 450px;list-style:circle;}
 article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video {display:block;}
 mark, rp, rt, ruby, summary, time {display:inline}
 /* Left & Right alignment */
@@ -21,7 +22,7 @@ body {background:#111;border:0;font:14px Arial, Helvetica, sans-serif;color:#0f0
 a {color:#13c5ff;text-decoration:underline;outline:none}
 a:hover {text-decoration:none}
 h2 span {color:#13c5ff}
-p {padding-bottom:20px}
+p {padding-top: 5px; padding-bottom:15px}
 /* header */
 header {height:660px;}
 header h1 {float:left}

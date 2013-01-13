@@ -32,22 +32,19 @@
             </div>
     <![endif]-->
   </head>
-  <body id="page2">
+  <body id="page2" class="{{ page.context }}">
     <div class="body1">
       <div class="body2">
         <div class="body3">
           <div class="main">
-            <!-- header -->
             <header>
               <div class="wrapper">
-                <h1><div class="pad" id="logo_wrapper"><a href="/index.html" id="logo" alt="Annie's Designs"></a><small>Exquisite Interior Design in Dallas</small></div></h1>
+                <h1><div class="pad" id="logo_wrapper"><a href="/index.html" id="logo" alt="{{ site.title }}"></a><small>{{ site.tagline }}</small></div></h1>
                 <nav>
                   {% include themes/anniesdesigns/menu.html %}
                 </nav>
               </div>
             </header>
-            <!-- / header-->
-            <!-- content -->
             <section id="content">
               <div class="wrapper">
                 {{content}}

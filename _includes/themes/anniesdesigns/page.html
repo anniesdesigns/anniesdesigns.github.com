@@ -1,2 +1,5 @@
 <h1>{{page.title}}<small>{{page.tagline}}</small></h1>
+{% if page.image %}
+  <img src="{{ page.image }}" width="400px" />
+{% endif %}
 {{ content }}
