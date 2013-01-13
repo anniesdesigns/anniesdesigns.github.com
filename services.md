@@ -2,6 +2,7 @@
 layout: page
 title : Services
 group: navigation
+weight: 3
 ---
 ![Services](http://placehold.it/300x300)
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu ante, pulvinar bibendum ultrices id, malesuada ut ipsum. Morbi congue ipsum in arcu mollis luctus. Suspendisse lacus risus, viverra in condimentum consequat, euismod a nisl. Vivamus est massa, posuere nec rhoncus in, accumsan quis sapien. Donec accumsan auctor ornare. Cras et tortor eu augue aliquam vehicula viverra nec dolor. Nam ut rutrum magna. Curabitur interdum interdum pellentesque. Curabitur bibendum cursus facilisis. Aenean iaculis, odio ut cursus consectetur, arcu arcu placerat arcu, ac pretium nulla purus ac magna. Integer faucibus pretium laoreet. Proin sagittis blandit sapien nec faucibus. Pellentesque aliquam sagittis metus in placerat. Suspendisse mattis cursus gravida. Duis ultrices suscipit bibendum. Sed vel mi leo.

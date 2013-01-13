@@ -1,6 +1,9 @@
 ---
 layout: frontpage
 title: Welcome to your home!
+menutitle: Home
+group: navigation
+weight: 0
 ---
 {% include JB/setup %}
 ![Ann Kelner](http://placehold.it/300x400)

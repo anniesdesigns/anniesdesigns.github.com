@@ -1,8 +1,5 @@
 <ul id="menu">
-  <li {% if page.url=='/index.html' %} {{ 'here' | debug}} id="active" {% endif %}><a href="/index.html">Home</a></li>
-  <li><a href="/about.html">About</a></li>
-  <li><a href="/folio.html">Folio</a></li>
-  <li><a href="/services.html">Services</a></li>
-  <li><a href="/articles.html">Articles</a></li>
-  <li class="end"><a href="/contact.html">Contact</a></li>
+  {% assign pages_list = site.pages %}
+  {% assign group = 'navigation' %}
+  {% include JB/pages_list %}
 </ul>

@@ -2,6 +2,8 @@
 layout: gallery
 title : Portfolio
 group: navigation
+menutitle: Folio
+weight: 2
 images:
   - thumbnail: http://placehold.it/220x160
     fullsize: blue_br.jpg

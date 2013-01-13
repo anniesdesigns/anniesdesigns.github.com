@@ -2,6 +2,8 @@
 layout: page
 title : Contact Annie
 group: navigation
+menutitle: Contact
+weight: 5
 ---
 Thank you for your interest.  Please send your message below, and we will get back with you as soon as possible.
 <!-- Do not change code! -->

@@ -4,12 +4,18 @@
       <div class="line2 wrapper">
         <div class="wrapper">
           <article class="col1">
-            <h2>My Philosophy</h2>
-            <div class="wrapper">
-              <figure class="left marg_right1"><img src="http://placehold.it/238x124" alt="My Philosophy"></figure>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dapibus orci at mauris sollicitudin eu cursus augue condimentum. Duis quis eros sem. Sed posuere convallis felis sit amet congue. Pellentesque ornare ornare eros at aliquet. Sed imperdiet pellentesque lacinia. Suspendisse bibendum feugiat justo sed laoreet. Nam ornare purus sit amet tortor accumsan tincidunt accumsan felis varius. Phasellus in tortor sit amet arcu consequat suscipit. Nulla faucibus, leo nec sollicitudin posuere, libero risus mollis nunc, ac congue mi ipsum eget justo. Quisque ligula arcu, fermentum tristique aliquam a, accumsan at orci.</p>
-            </div>
-            <a href="{{BASE_PATH}}about.html" class="button">Read More</a>
+            {% for node in site.pages %}
+              {% if node.section == 'footer_left' %}
+                <h2>{{node.title}}</h2>
+                <div class="wrapper">
+                  <figure class="left marg_right1"><img src="{{node.image}}" alt="{{node.title}}"></figure>
+                  {{node.content}}
+                </div>
+                {% if node.more_link %}
+                  <a href="{{BASE_PATH}}/{{ node.more_link }}" class="button">Read More</a>
+                {% endif %}
+              {% endif %}
+            {% endfor %}
           </article>
           <article class="col3 pad_left1">
             <h2>Recent Articles</h2>
@@ -34,7 +40,7 @@
 <div class="main">
   <!-- footer -->
   <footer>
-    Annie Kelner - 1604 Amesbury Dr. - Richardson, TX 75082
+    {{ site.profile.name }} {{ site.profile.address }}
     <div class="wrapper">
       {% if (site.links) %}
         <ul id="icons">
