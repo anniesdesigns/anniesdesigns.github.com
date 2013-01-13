@@ -27,6 +27,7 @@ p {padding-top: 5px; padding-bottom:15px}
 header {height:660px;}
 header h1 {float:left}
 img {margin:5px;padding:5px;background-color:#fff;}
+img.state_seal {background-color: transparent;}
 img#fullResImage {margin:0px;padding:0px;}
 #content img {float:left;}
 #logo {display:block;background:url(../images/template/logo.png) 0 0 no-repeat;width:368px;height:164px;text-indent:-9999px}
@@ -114,3 +115,7 @@ a.aToolTipCloseBtn {display:block;height:20px;width:20px;overflow:hidden;backgro
 #ContactForm a {margin-right:10px;float:left;margin-top:5px}
 #ContactForm .input {width:767px;height:16px;border:1px solid #d7d7d7;background:#fff;padding:5px;color:#000;font:14px Arial, Helvetica, sans-serif}
 #ContactForm textarea {overflow:auto;margin:0;width:767px;height:257px;border:1px solid #d7d7d7;background:#fff;padding:5px;color:#000;font:14px Arial, Helvetica, sans-serif}
+div.state_seal {background: url(../images/texas_seal.png) no-repeat 50% 0px; background-color: transparent; height: 300px; width: 280px;}
+div.state_seal p {font-size: 16px; color: #ccc; text-align: center;}
+div.state_seal div.wrapper {padding-top: 50px;}
+body.services div.wrapper div.services-content {height: 50px;}
