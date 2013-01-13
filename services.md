@@ -18,7 +18,7 @@ These services include, but are certainly not limited to.
 - Residential, Commercial, and Vacation Retreats.
 - New construction, from conception to completion.
 - Luxury furnishings, lighting, and accessories.
-- Experienced antique purchaser.
+- Experienced antique purchasing.
 - Custom Re-upholstery.
 - Custom drapery and window covering design and installation.
 - Hand-drawn Sketches and digital renderings.
