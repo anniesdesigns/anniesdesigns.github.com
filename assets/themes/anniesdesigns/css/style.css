@@ -119,3 +119,7 @@ div.state_seal {background: url(../images/texas_seal.png) no-repeat 50% 0px; bac
 div.state_seal p {font-size: 16px; color: #ccc; text-align: center;}
 div.state_seal div.wrapper {padding-top: 50px;}
 body.services div.wrapper div.services-content {height: 50px;}
+div.addthis {margin-top: 10px;}
+div.addthis_modal {position: absolute; top: 5px; right: 5px; width: 144px; opacity: 0.9;z-index:1200;}
+#fancybox-right {top: 50px;}
+#fancybox-right-ico {margin-top: -65px !important;}
