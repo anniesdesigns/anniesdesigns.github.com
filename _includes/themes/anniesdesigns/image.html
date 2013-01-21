@@ -7,7 +7,12 @@
   <div class="wrapper">
     <img class="full-image" src="{{page.image}}" />
   </div>
-  {{ content }}
+  <div class="wrapper">
+    {{page.description}}
+  </div>
+  <div class="wrapper">
+    {{ content }}
+  </div>
   <div class="prev-next">
   {% if page.next %}
     <a href="{{ page.next.url }}" class="next" title="{{ page.next.title }}">Next Post &rarr;</a>

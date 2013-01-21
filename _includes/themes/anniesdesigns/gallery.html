@@ -21,22 +21,34 @@
   }
 
   $(document).ready(function() {
+    var images = {};
+    {% for node in site.pages %}
+      {% if node.group == 'portfolio' %}
+    images['{{node.image}}'] = {
+      id: '{{node.id}}',
+      title: '{{node.title}}',
+      url: '{{ site.production_url }}{{node.url}}',
+      description: '{{node.description}}'
+    };
+      {% endif %}
+    {% endfor %}
+
     $("a[rel=fancybox]").fancybox({
       'transitionIn' : 'none',
       'transitionOut' : 'none',
       'titlePosition' : 'over',
       'titleFormat' : function(title, currentArray, currentIndex, currentOpts) {
-        var id = $('.lightbox-image[href="' + this.href +'"]').attr('id');
-        return '<span id="fancybox-title-over"><a class="btn btn-inverse" href="/images/' + id + '.html">' + title + '<i class="icon-white icon-chevron-right"></i></a></span>';
+        var image = images[this.href];
+        return '<span id="fancybox-title-over"><a class="btn btn-inverse" href="/images/' + image.id + '.html">' + title + '<i class="icon-white icon-chevron-right"></i></a></span>';
       },
       'onComplete': function() {
-        var tag = $('.lightbox-image[href="' + this.href +'"]');
-        var id = tag.attr('id');
-        var add_this = $('{% include addthis_image %}').attr('id', 'addthis-' + id);
+        var image = images[this.href];
+        var add_this = $('{% include addthis_image %}').attr('id', 'addthis-' + image.id);
         $('#fancybox-content').prepend($('<div />').append(add_this).html());
-        addthis.toolbox('#addthis-' + id, {}, {
-          title: tag.attr('title'),
-          url: '{{ site.production_url }}/images/' + id + '.html'
+        addthis.toolbox('#addthis-' + image.id, {}, {
+          title: image.title,
+          description: image.description,
+          url: '{{ site.production_url }}/images/' + image.id + '.html'
         });
       }
     });
