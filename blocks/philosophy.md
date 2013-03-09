@@ -2,7 +2,7 @@
 title: My Philosophy
 section: footer_left
 ---
-When someone walks into your home, what is their first impression?  {{ site.profile.name }}
+When someone walks into your home, what is their first impression? Ann Kellner
 understands that your home is a direct statement of what interests you, where you
 have been, and more importantly... who you are.  This understanding has equipped
 her with the desire to not only strive to make your home beautiful, but to
