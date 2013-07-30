@@ -1,5 +1,6 @@
 ---
 layout: gallery
+gallery: portfolio
 title : Portfolio
 group: navigation
 context: portfolio

@@ -6,5 +6,5 @@ id: lorettasliving
 image: /assets/themes/anniesdesigns/images/portfolio/lorettasliving.jpg
 thumb: /assets/themes/anniesdesigns/images/portfolio/lorettasliving_thumb.jpg
 group: portfolio
-weight: 1
+orientation: vertical
 ---

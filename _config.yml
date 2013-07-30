@@ -125,3 +125,18 @@ JB :
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
 
+portfolio:
+  - livingroom4
+  - study
+  - powder2
+  - fireplace
+  - kitchen
+  - moose
+  - pinkbed
+  - kitchen2
+  - masterbath
+  - bearbed
+  - kitchen3
+  - acornbath
+  - bear
+  - livingroom3

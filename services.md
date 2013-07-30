@@ -3,7 +3,7 @@ layout: page
 title : Services
 group: navigation
 context: services
-image: /assets/themes/anniesdesigns/images/portfolio/pinkmantle.jpg
+image: /assets/themes/anniesdesigns/images/portfolio/fireplace.jpg
 weight: 3
 ---
 <div class="services-content">&nbsp;</div>

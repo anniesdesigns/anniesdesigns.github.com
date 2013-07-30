@@ -123,3 +123,7 @@ div.addthis {margin-top: 10px;}
 div.addthis_modal {position: absolute; top: 5px; right: 5px; width: 144px; opacity: 0.9;z-index:1200;}
 #fancybox-right {top: 50px;}
 #fancybox-right-ico {margin-top: -65px !important;}
+
+.lightbox-image img { width: 220px; }
+.lightbox-image.vertical img {height: 290px;}
+.lightbox-image.horizontal img {height: 148px;}

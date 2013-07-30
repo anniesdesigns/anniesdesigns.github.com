@@ -1,13 +1,10 @@
 <ul class="gallery">
-  {% for weight in (0..20) %}
+
+  {% for page_id in site[page.gallery] %}
     {% for node in site.pages %}
-      {% assign nodeweight = node.weight; %}
-      {% if (nodeweight == null) %}
-        {% assign nodeweight = 0 %}
-      {% endif %}
-      {% if nodeweight == weight and node.group == 'portfolio' %}
+      {% if node.group == 'portfolio' and node.id == page_id %}
         <li>
-          <a id="{{ node.id }}" href="{{ node.image }}" class="lightbox-image" rel="fancybox" title="{{ node.title }}">
+          <a id="{{ node.id }}" href="{{ node.image }}" class="lightbox-image {{ node.orientation }}" rel="fancybox" title="{{ node.title }}">
             <img src="{{ node.thumb }}" alt="">
           </a>
         </li>
