@@ -1,0 +1,23 @@
+{
+  "name": "anniesdesigns.github.com",
+  "version": "1.0.0",
+  "description": "The quickest way to start and publish your Jekyll powered blog. 100% compatible with GitHub pages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anniesdesigns/anniesdesigns.github.com.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anniesdesigns/anniesdesigns.github.com/issues"
+  },
+  "homepage": "https://github.com/anniesdesigns/anniesdesigns.github.com#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-s3": "^0.11.0"
+  }
+}
