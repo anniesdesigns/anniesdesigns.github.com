@@ -1,7 +1,4 @@
 {% capture jbcache %}
-  <!--
-  - Dynamically set liquid variables for working with URLs/paths
-  -->
   {% if site.JB.setup.provider == "custom" %}
     {% include custom/setup %}
   {% else %}
@@ -16,7 +13,7 @@
     {% if site.JB.ASSET_PATH %}
       {% assign ASSET_PATH = site.JB.ASSET_PATH %}
     {% else %}
-      {% capture ASSET_PATH %}{{ BASE_PATH }}/assets/themes/{{ page.theme.name }}{% endcapture %}
+      {% capture ASSET_PATH %}{{ BASE_PATH }}/assets/themes/anniesdesigns{% endcapture %}
     {% endif %}  
   {% endif %}
 {% endcapture %}{% assign jbcache = nil %}
